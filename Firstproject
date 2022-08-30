@@ -19,10 +19,7 @@ public class dragndropoffset {
 		driver.get("https://jqueryui.com/draggable/");
 		driver.switchTo().frame(0);
 		WebElement src = driver.findElement(By.id("draggable"));
-		Actions action=new Actions(driver);
-		action.dragAndDropBy(src, 60, 70).perform();
-		//Thread.sleep(3000);
-		//driver.quit();
+		
 	}
 
 }
